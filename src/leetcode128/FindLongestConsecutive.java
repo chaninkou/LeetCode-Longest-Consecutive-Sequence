@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class FindLongestConsecutive {
 	// O(N) solution
 	public int longestConsecutive(int[] nums) {
+		// Keep track of longest consecutive of current element for all
 		HashMap<Integer, Integer> map = new HashMap<>();
 
 		int result = 0;
